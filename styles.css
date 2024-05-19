@@ -51,7 +51,7 @@ nav{
 }
 
 nav .logo{
-    width: 60px;
+    width: 70px;
     margin: 2vh;
     margin-left: 8%;
 }
@@ -274,14 +274,15 @@ nav ul li a{
 
 .col-content{
     position: relative;
-    filter:brightness(95%);
+    filter:brightness(70%);
     transition: all 0.3s cubic-bezier(0.445,0.05,0.55,0.95);
 
 }
 
 .col-content img{
     margin-bottom: 40px;
-    height: 500px;
+    max-height: 400px;
+    max-width: 400px;
     border-radius: 27px;
     width: 100%;
     
